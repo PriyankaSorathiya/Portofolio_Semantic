@@ -1,4 +1,4 @@
-Person 1 (Priyanka): Data extraction—pre-processing 
+(Priyanka- k67900): Data extraction—pre-processing 
 
 Extracted text and Pre-Processed Policy Documents
 Cleaned and structured policy content into chunks.
@@ -8,7 +8,7 @@ Indexed embeddings using FAISS for fast retrieval.
 Implemented query-to-vector search using FAISS.
 Integrated FAISS with GPT-3.5
 
-Person 2 (Bilal): BM25, Hybrid Ranking & Query Expansion
+(Bilal - k67963): BM25, Hybrid Ranking & Query Expansion
 Implemented BM25 for Lexical Search
 Tokenized and indexed document chunks.
 Developed Hybrid FAISS + BM25 Ranking
@@ -18,6 +18,6 @@ Implemented Query Expansion Using GPT-3.5
 Optimized Retrieval Pipeline & Debugging
 Evaluated and fine-tuned hybrid search performance.
 
-Person 3 (Anusha) : The Streamlit-based RAG chatbot features a WhatsApp Web-style UI, integrating FAISS (semantic search) and BM25 (keyword search) for retrieving relevant text chunks. User queries are processed through both methods, providing context to OpenAI's GPT-3.5 for accurate responses.
+(Anusha - 67910) : The Streamlit-based RAG chatbot features a WhatsApp Web-style UI, integrating FAISS (semantic search) and BM25 (keyword search) for retrieving relevant text chunks. User queries are processed through both methods, providing context to OpenAI's GPT-3.5 for accurate responses.
 
 The chatbot maintains a dynamic conversation flow, prompting "Any further queries?" with Yes/No buttons. Selecting "Yes" allows new queries, while "No" triggers a feedback prompt before resetting the chat. Session state ensures seamless interaction, preserving chat history without page refreshes. This implementation delivers an interactive and efficient AI assistant using Streamlit’s real-time UI capabilities.
